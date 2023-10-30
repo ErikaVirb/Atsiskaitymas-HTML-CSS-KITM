@@ -1,0 +1,88 @@
+#background-header{
+    background-image: url(../img/background-picture.png);
+    /* Jei nuotrauka bus nepasiekiama, vietoj paveikslėlio bus spalvos fonas */
+    background-color: #969696;
+    /* Kad užimtų visą ekrano aukštį ir potį */
+    height: 100vh;
+    width: 100%;
+    /* Kad padengtų visą ekraną */
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* Išcentravimas mažinant ekraną x, tiek y ašimi */
+    background-position: center center;
+    /* Suteikiam fiksuotą poziciją, kad prasidetų nuo viršaus 0-ino taško */
+    /* position: fixed;
+    top: 0;  */
+    /* Kad textas galėtų užeiti ant paveiksliuko */
+    /* z-index: 0; */ 
+}
+a.share{
+    padding-left: 0;
+/* ===========================     */
+}
+.card{
+       --bs-border-radius: 0.7rem;
+       box-shadow: 5px 5px 20px #e7e4e4;
+       border-style: none;
+}
+.top-podcasts-bg-color{
+    background-color: #F8F8F8;
+}
+/* FOOTER */
+footer p
+{
+    color: #969696;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.67px;
+}
+footer h3
+{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.02px; /* 126% */
+}
+footer{
+    background-color: black;
+}
+.font-tipe-Lato{
+    font-family: 'Lato', sans-serif;
+}
+.font-tipe-OpenSans{
+    font-family: 'Open Sans', sans-serif;
+}
+.no-bullets{
+    list-style: none;
+}
+.rounded-button{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 50%;  
+}
+.rounded-button:hover{
+    background-color: #d5cfcf;
+}
+div p.button-pill-text-size{
+    /* width: 11.5625rem;
+    height: 3.375rem; */
+    line-height: 1,3rem;
+}
+div h3.button-pill-text-size{
+    /* width: 11.5625rem;
+    height: 3.375rem; */
+    height: fit-content;
+    width: fit-content;
+    font-size: x-small;
+}
+.meet-your-host{
+    padding-left: 0px;
+    padding-right: 0px;
+}
