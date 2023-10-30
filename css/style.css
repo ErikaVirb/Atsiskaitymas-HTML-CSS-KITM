@@ -1,25 +1,9 @@
 #background-header{
     background-image: url(../img/background-picture.png);
-    /* Jei nuotrauka bus nepasiekiama, vietoj paveikslėlio bus spalvos fonas */
-    /* background-color: #969696; */
-    /* Kad užimtų visą ekrano aukštį ir potį */
-    /* height: 100vh;
-    width: 100%; */
-    /* Kad padengtų visą ekraną */
     background-size: cover ;
-    /* background-size: cover; */
-    /* background-repeat: no-repeat;  */
-    /* Išcentravimas mažinant ekraną x, tiek y ašimi */
-    /* background-position: center center; */
-    /* Suteikiam fiksuotą poziciją, kad prasidetų nuo viršaus 0-ino taško */
-    /* position: fixed;
-    top: 0;  */
-    /* Kad textas galėtų užeiti ant paveiksliuko */
-    /* z-index: 0; */ 
 }
 a.share{
     padding-left: 0;
-/* ===========================     */
 }
 .card{
        --bs-border-radius: 0.7rem;
@@ -93,4 +77,29 @@ h5, h3{
 .podcast-button{
     height: 65px;
     width: 180px;
+}
+.pseudo-video{
+    position: relative;
+}
+.pseudo-video button{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.header--section-paddind{
+    padding-bottom: 20rem;
+}
+.podcast-player{
+    position: relative;
+}
+@media (min-width: 300px) {
+    .podcast-button{
+        margin-bottom: .5rem;
+    }
+}
+@media (min-width: 300px) {
+.header--section-paddind{
+    padding-bottom: 3rem;
+}
 }
