@@ -18,105 +18,92 @@
 </head>
 
 <body>
-  <div id="background-header">
+  <header id="background-header" class="container-fluid">
     <!--HEADER / Nav-->
-    <header class="container">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#" target="_blank">
-            <img src="img/logo.png.png" alt="Logo">
-          </a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 font-tipe-Lato">
-              <li class="nav-item active px-3 text-decoration-underline">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" aria-current="page" href="index.html">Pages</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" aria-current="page" href="index.html">Podcast</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" aria-current="page" href="#">Blog</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" aria-current="page" href="index.html">Shop</a>
-              </li>
-            </ul>
-            <a class="text-black text-decoration-none font-tipe-Lato" href="#" target="_blank">
-              <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g id="Frame">
-                  <path id="Vector"
-                    d="M14.4176 17.3715L9.96035 12.5085C10.9646 11.4578 11.5166 10.0838 11.5166 8.625C11.5166 7.12275 10.9316 5.70975 9.86885 4.64775C8.8061 3.58575 7.39385 3 5.8916 3C4.38935 3 2.97635 3.585 1.91435 4.64775C0.852352 5.7105 0.266602 7.12275 0.266602 8.625C0.266602 10.1273 0.851602 11.5403 1.91435 12.6023C2.9771 13.6643 4.38935 14.25 5.8916 14.25C7.1861 14.25 8.4131 13.8158 9.4076 13.0162L13.8649 17.8785C13.9391 17.9595 14.0396 18 14.1416 18C14.2324 18 14.3231 17.9677 14.3951 17.9017C14.5481 17.7615 14.5579 17.5245 14.4184 17.3722L14.4176 17.3715ZM1.01585 8.625C1.01585 5.937 3.20285 3.75 5.89085 3.75C8.57885 3.75 10.7659 5.937 10.7659 8.625C10.7659 11.313 8.57885 13.5 5.89085 13.5C3.20285 13.5 1.01585 11.313 1.01585 8.625Z"
-                    fill="black" />
-                </g>
-              </svg>
-              <button class="nav-search btn text" type="button">Search</button>
-              <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="0.46875" width="5" height="5" rx="2.5" fill="black" />
-                <rect x="10" y="0.46875" width="5" height="5" rx="2.5" fill="black" />
-                <rect x="20" y="0.46875" width="5" height="5" rx="2.5" fill="black" />
-                <rect y="10.4688" width="5" height="5" rx="2.5" fill="black" />
-                <rect x="10" y="10.4688" width="5" height="5" rx="2.5" fill="black" />
-                <rect x="20" y="10.4688" width="5" height="5" rx="2.5" fill="black" />
-                <rect y="20.4688" width="5" height="5" rx="2.5" fill="black" />
-                <rect x="10" y="20.4688" width="5" height="5" rx="2.5" fill="black" />
-                <rect x="20" y="20.4688" width="5" height="5" rx="2.5" fill="black" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </nav>
-      <!--Section po Headeriu-->
-      <!--"NEW EPISODE..." picture section-->
-      <section>
-        <!--Title / Paragraf / Buttons-->
-        <div class="container">
-          <div>
-            <!--"NEW EPISODE AVAILABLE..."-->
-            <h1 class="font-tipe-Lato display-3 pt-5">New episode <br> available now</h1>
-            <p class="font-tipe-OpenSans pb-2">Available on Apple Soundcast and Spotyfi</p>
-          </div>
-        </div>
-        <!--"Apple and Soundcloud" buttons section -->
-        <!--Apple Podcast -->
-        <button class="rounded-pill bg-black button--rounded-pill p-1 text-center" type="button">
-          <div class="row">
-            <div class="col-2 p-4">
-              <i class="fa-solid fa-podcast" style="color: #ffffff;"></i>
-            </div>
-            <div class="col-4 p-2 mx-4 text-start">
-              <p class="button-pill-text-size text-light m-0">Listen on</p>
-              <h4 class="text-light">Apple Podcast</h4>
-            </div>
-          </div>
+    <nav class="navbar navbar-expand-lg px-5 pt-3 ">
+      <!-- <div class="> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#" target="_blank">
+        <img src="img/logo.png.png" alt="Logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 font-tipe-Lato">
+          <li class="nav-item active px-3 text-decoration-underline">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" aria-current="page" href="index.html">Pages</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" aria-current="page" href="index.html">Podcast</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" aria-current="page" href="index.html">Shop</a>
+          </li>
+        </ul>
+        <a class="text-black text-decoration-none font-tipe-Lato" href="#" target="_blank">
+          <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Frame">
+              <path id="Vector"
+                d="M14.4176 17.3715L9.96035 12.5085C10.9646 11.4578 11.5166 10.0838 11.5166 8.625C11.5166 7.12275 10.9316 5.70975 9.86885 4.64775C8.8061 3.58575 7.39385 3 5.8916 3C4.38935 3 2.97635 3.585 1.91435 4.64775C0.852352 5.7105 0.266602 7.12275 0.266602 8.625C0.266602 10.1273 0.851602 11.5403 1.91435 12.6023C2.9771 13.6643 4.38935 14.25 5.8916 14.25C7.1861 14.25 8.4131 13.8158 9.4076 13.0162L13.8649 17.8785C13.9391 17.9595 14.0396 18 14.1416 18C14.2324 18 14.3231 17.9677 14.3951 17.9017C14.5481 17.7615 14.5579 17.5245 14.4184 17.3722L14.4176 17.3715ZM1.01585 8.625C1.01585 5.937 3.20285 3.75 5.89085 3.75C8.57885 3.75 10.7659 5.937 10.7659 8.625C10.7659 11.313 8.57885 13.5 5.89085 13.5C3.20285 13.5 1.01585 11.313 1.01585 8.625Z"
+                fill="black" />
+            </g>
+          </svg>
+        </a>
+        <button class="nav-search btn text text-black text-decoration-none font-tipe-Lato" type="button">Search</button>
+        <a class="text-black text-decoration-none font-tipe-Lato" href="#" target="_blank">
+          <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="0.46875" width="5" height="5" rx="2.5" fill="black" />
+            <rect x="10" y="0.46875" width="5" height="5" rx="2.5" fill="black" />
+            <rect x="20" y="0.46875" width="5" height="5" rx="2.5" fill="black" />
+            <rect y="10.4688" width="5" height="5" rx="2.5" fill="black" />
+            <rect x="10" y="10.4688" width="5" height="5" rx="2.5" fill="black" />
+            <rect x="20" y="10.4688" width="5" height="5" rx="2.5" fill="black" />
+            <rect y="20.4688" width="5" height="5" rx="2.5" fill="black" />
+            <rect x="10" y="20.4688" width="5" height="5" rx="2.5" fill="black" />
+            <rect x="20" y="20.4688" width="5" height="5" rx="2.5" fill="black" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+    <!--Section po Headeriu-->
+    <!--Title / Paragraf / Buttons-->
+    <!--"NEW EPISODE..." picture section-->
+    <div class="container mt-5">
+      <div>
+        <!--"NEW EPISODE AVAILABLE..."-->
+        <h1 class="font-tipe-Lato display-3 pt-5">New episode <br> available now</h1>
+        <p class="font-tipe-OpenSans pb-2">Available on Apple Soundcast and Spotyfi</p>
+      </div>
+      <!--"Apple and Soundcloud" buttons section -->
+      <!--Apple Podcast -->
+      <div class="container p-0">
+        <button class="podcast-button rounded-pill btn btn-dark text-start px-3" type="button">
+          <i class="fa-solid fa-podcast" style="color: #ffffff;"></i>
+          <small>Listen on </small> <br> <span class="fs-5 ps-3">Apple Podcast</span>
         </button>
         <!--Soundcloud-->
-        <button class="rounded-pill bg-black button--rounded-pill p-1 text-center" type="button">
-          <div class="row">
-            <div class="col-2 p-4">
-              <i class=" fa-brands fa-soundcloud fa-l" style="color: #ffffff;"></i>
-            </div>
-            <div class="col-4 p-2 mx-4 text-start">
-              <p class="button-pill-text-size_small text-light m-0">Listen on</p>
-              <h4 class="text-light">Soundcloud</h4>
-            </div>
-          </div>
+        <button class="podcast-button  rounded-pill btn btn-dark text-start px-3" type="button">
+          <i class=" fa-brands fa-soundcloud " style="color: #ffffff;"></i>
+          <small>Listen on </small> <br> <span class="fs-5 ps-4">Soundcloud</span>
         </button>
-      </section>
-      <!--=========================================================================================-->
-      <!--"TIMMY MIKE" Podcast Player-->
-  </div>
+      </div>
+    </div>
+  </header>
+  <!--=========================================================================================-->
+  <!--"TIMMY MIKE" Podcast Player-->
+
   <!--===========================================================================================-->
   <!--"BEST PLACES TO.." Play episode dalis-->
   <article class="container py-5 my-5">
-    <div class="row gx-5 ">
-      <div class=" col-5">
+    <div class="row gx-5 justify-content-between ">
+      <div class=" col-md-5">
         <h1 class="pb-3 font-tipe-Lato">Best places to find <br> design inspiration</h1>
         <div class="row">
           <div class="col-2">
@@ -151,122 +138,116 @@
           </svg>
         </a>
       </div>
-      <div class="col d-flex justify-content-end">
-        <img class="border rounded-3" src="img/Playing_Video_Picture.jfif" alt="uolos">
+      <div class="col-md-5">
+        <img class="border img-fluid rounded-3" src="img/Playing_Video_Picture.jfif" alt="uolos">
       </div>
     </div>
   </article>
   <!--===========================================================================================-->
   <!--"TOP PODCASTS" Bendras konteineris -->
-  <main class="top-podcasts-bg-color fluid-container">
-    <div class="top-podcasts text-center">
-      <!--"Top podcast" Title ir paragraf-->
-      <div class="top-podcast-title pb-5 pt-5">
-        <h2 class="fw-bolder mb-3 font-tipe-Lato ">Top podcasts:</h2>
-        <p class="font-tipe-OpenSans">Discover the selection of the most popular podcast.</p>
-      </div>
-      <!--"Top podcasts" Cards-->
-      <!-- <div class="container"> -->
-      <div class="row g-5">
-        <!--Card 1-->
-        <article class="col">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="img/1_top_podcasts.jfif" class="img-fluid rounded-start" alt="Pokalbiu svecias1">
-              </div>
-              <!--Button overlay on card-->
-              <!-- <div class="card-img-overlay row row-cols-auto justify-content-end align-items-start m-0">
+  <main class="top-podcasts-bg-color fluid-container text-center">
+
+    <!--"Top podcast" Title ir paragraf-->
+    <div class="container top-podcast-title pb-5 pt-5">
+      <h2 class="fw-bolder mb-3 font-tipe-Lato col">Top podcasts:</h2>
+      <p class="font-tipe-OpenSans col">Discover the selection of the most popular podcast.</p>
+    </div>
+    <!--"Top podcasts" Cards-->
+    <!-- <div class="container"> -->
+    <div class="g-0 row row-cols-1 row-cols-md-3 justify-content-between">
+      <!--Card 1-->
+      <article class="card p-0 mb-3">
+        <div class="row g-0">
+          <div class="col-4">
+            <img src="img/1_top_podcasts.jfif" class="img-fluid float-start rounded-start" alt="Pokalbiu svecias1">
+          </div>
+          <!--Button overlay on card-->
+          <!-- <div class="card-img-overlay row row-cols-auto justify-content-end align-items-start m-0">
                   <a class="btn btn-light" href="#"> <img src="img/ausines.svg" alt="Ausiniu Icona">
                   </a>
               </div> -->
-              <!--Cardo desine-->
-              <div class="col-md-8">
-                <div class="card-body text-start">
-                  <ul class="font-tipe-OpenSans no-bullets row px-0">
-                    <li class="col-auto">Episode 1</li>
-                    <li class="col-auto px-0"> • </li>
-                    <li class="col-auto">Technology</li>
-                  </ul>
-                  <div class="border-bottom border-black border-2 " style="width: fit-content;">
-                    <h5 class="card-title font-tipe-Lato">SRKP selects: how the <br>new ages work</h5>
-                  </div>
-                  <a class="my-2 d-flex justify-content-start text-decoration-none text-black font-tipe-Lato"
-                    href="index.html">Episode page
-                    <img src="img/Arrow.svg" alt="Arrow">
-                  </a>
-                </div>
+          <!--Cardo desine-->
+          <div class="col-8">
+            <div class="card-body text-start">
+              <ul class="font-tipe-OpenSans no-bullets row px-0">
+                <li class="col-auto">Episode 1</li>
+                <li class="col-auto px-0"> • </li>
+                <li class="col-auto">Technology</li>
+              </ul>
+              <div class="border-bottom border-black border-2 " style="width: fit-content;">
+                <h5 class="card-title font-tipe-Lato">SRKP selects: how the <br>new ages work</h5>
               </div>
+              <a class="my-2 d-flex justify-content-start text-decoration-none text-black font-tipe-Lato"
+                href="index.html">Episode page
+                <img src="img/Arrow.svg" alt="Arrow">
+              </a>
             </div>
           </div>
-        </article>
-        <!--Card 2-->
-        <article class="col">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="img/2_top_podcasts.jfif" class="img-fluid rounded-start" alt="Pokalbiu svecias1">
+        </div>
+      </article>
+      <!--Card 2-->
+      <article class="p-0 card mb-3">
+        <div class="row g-0">
+          <div class="col-4">
+            <img src="img/2_top_podcasts.jfif" class="img-fluid float-start rounded-start" alt="Pokalbiu svecias1">
+          </div>
+          <!--Button overlay on card-->
+          <!--Cardo desine-->
+          <div class="col-8">
+            <div class="card-body text-start">
+              <ul class="font-tipe-OpenSans no-bullets row px-0">
+                <li class="col-auto">Episode 1</li>
+                <li class="col-auto px-0"> • </li>
+                <li class="col-auto">Technology</li>
+              </ul>
+              <div class="border-bottom border-black border-2 " style="width: fit-content;">
+                <h5 class="card-title font-tipe-Lato">SRKP selects: how the <br>new ages work</h5>
               </div>
-              <!--Button overlay on card-->
-              <!--Cardo desine-->
-              <div class="col-md-8">
-                <div class="card-body text-start">
-                  <ul class="font-tipe-OpenSans no-bullets row px-0">
-                    <li class="col-auto">Episode 1</li>
-                    <li class="col-auto px-0"> • </li>
-                    <li class="col-auto">Technology</li>
-                  </ul>
-                  <div class="border-bottom border-black border-2 " style="width: fit-content;">
-                    <h5 class="card-title font-tipe-Lato">SRKP selects: how the <br>new ages work</h5>
-                  </div>
-                  <a class="my-2 d-flex justify-content-start text-decoration-none text-black font-tipe-Lato"
-                    href="index.html">Episode page
-                    <img src="img/Arrow.svg" alt="Arrow">
-                  </a>
-                </div>
-              </div>
+              <a class="my-2 d-flex justify-content-start text-decoration-none text-black font-tipe-Lato"
+                href="index.html">Episode page
+                <img src="img/Arrow.svg" alt="Arrow">
+              </a>
             </div>
           </div>
-        </article>
-        <!--Card 3-->
-        <article class="col">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="img/3_top_podcasts.jfif" class="img-fluid rounded-start" alt="Pokalbiu svecias1">
+        </div>
+      </article>
+      <!--Card 3-->
+      <article class="card p-0 mb-3">
+        <div class="row g-0">
+          <div class="col-4">
+            <img src="img/3_top_podcasts.jfif" class="img-fluid float-start rounded-start" alt="Pokalbiu svecias1">
+          </div>
+          <!--Button overlay on card-->
+          <!--Card desineje-->
+          <div class="col-8">
+            <div class="card-body  text-start">
+              <ul class="font-tipe-OpenSans no-bullets row px-0">
+                <li class="col-auto">Episode 1</li>
+                <li class="col-auto px-0"> • </li>
+                <li class="col-auto">Technology</li>
+              </ul>
+              <div class="border-bottom border-black border-2" style="width: fit-content;">
+                <h5 class="card-title font-tipe-Lato">SRKP selects: how the <br>new ages work</h5>
               </div>
-              <!--Button overlay on card-->
-              <!--Card desineje-->
-              <div class="col-md-8">
-                <div class="card-body  text-start">
-                  <ul class="font-tipe-OpenSans no-bullets row px-0">
-                    <li class="col-auto">Episode 1</li>
-                    <li class="col-auto px-0"> • </li>
-                    <li class="col-auto">Technology</li>
-                  </ul>
-                  <div class="border-bottom border-black border-2" style="width: fit-content;">
-                    <h5 class="card-title font-tipe-Lato">SRKP selects: how the <br>new ages work</h5>
-                  </div>
-                  <a class="my-2 d-flex justify-content-start text-decoration-none text-black font-tipe-Lato"
-                    href="index.html">Episode page
-                    <img src="img/Arrow.svg" alt="Arrow">
-                  </a>
-                </div>
-              </div>
+              <a class="my-2 d-flex justify-content-start text-decoration-none text-black font-tipe-Lato"
+                href="index.html">Episode page
+                <img src="img/Arrow.svg" alt="Arrow">
+              </a>
             </div>
           </div>
-        </article>
-      </div>
-      <!--Podcasts Bullets SVG-->
-      <div class="bullets display-1 pb-4">
-        <svg width="70" height="21" viewBox="0 0 70 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect y="7.20312" width="6" height="6" rx="3" fill="black" />
-          <rect x="32" y="7.20312" width="6" height="6" rx="3" fill="black" />
-          <rect x="25.5" y="0.703125" width="19" height="19" rx="9.5" stroke="#8E8B8C" />
-          <rect x="64" y="7.20312" width="6" height="6" rx="3" fill="black" />
-        </svg>
-      </div>
+        </div>
+      </article>
     </div>
+    <!--Podcasts Bullets SVG-->
+    <div class="bullets display-1 pb-4">
+      <svg width="70" height="21" viewBox="0 0 70 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect y="7.20312" width="6" height="6" rx="3" fill="black" />
+        <rect x="32" y="7.20312" width="6" height="6" rx="3" fill="black" />
+        <rect x="25.5" y="0.703125" width="19" height="19" rx="9.5" stroke="#8E8B8C" />
+        <rect x="64" y="7.20312" width="6" height="6" rx="3" fill="black" />
+      </svg>
+    </div>
+
   </main>
   <!--===========================================================================================-->
   <!--"ESSENTIAL EPISODES" bendras konteineris-->
@@ -281,7 +262,8 @@
       </div>
     </div>
     <!--Episodes konteineris-->
-    <div class="row g-5 row-cols-md-3">
+    <div class="g-5 row row-cols-1 row-cols-md-3 ">
+
       <!--Episode 1-->
       <article class="col">
         <div class="card">
@@ -439,9 +421,9 @@
   </section>
   <!--===========================================================================================-->
   <!--"VIDEO" Pseudo/ Photo-->
-  <section class="fluid-container py-5 mt-5">
+  <div class="fluid-container py-5 mt-5">
     <img src="img/section_devidor_picture.jfif" class="col-12" alt="Foto apie Video">
-  </section>
+  </div>
   <!--===========================================================================================-->
   <!--"MEET YOUR HOST" Host Section bendras conteineris-->
   <section class="container meet-your-host pb-5 my-5">
@@ -458,11 +440,11 @@
     </div>
     <!--HOST Cards-->
     <section>
-      <div class="container">
-        <div class="row g-5">
+      <div class="container ">
+        <div class="g-5 row row-cols-1 row-cols-md-3 ">
           <!--Host 1 card-->
           <article class="col">
-            <div class="card">
+            <div class="card ">
               <img src="img/Host_1.jfif" class="card-img-top" alt="Bella Jimenez">
               <div class="card-body text-start">
                 <h3 class="card-title font-tipe-Lato">Bella Jimenez</h3>
@@ -505,7 +487,7 @@
             </div>
           </article>
           <!--Host 3 card-->
-          <article class="col">
+          <article class="col d-inline-flex">
             <div class="card">
               <img src="img/Host_3.jfif" class="card-img-top" alt="Caitlin Henderson">
               <div class="card-body">
